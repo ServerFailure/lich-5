@@ -1547,6 +1547,129 @@
       <message type='end'>You relax from your continuous efforts to maximize your defense\.</message>
       <cast-proc>fput &quot;shield tortoise&quot;</cast-proc>
    </spell>
+   <spell availability='self-cast' name='Shield Bash' number='9402' type='attack'>
+      <cost type='stamina'>9</cost>
+      <cast-proc>dothistimeout &apos;shield bash&apos;, 3, /^You lunge forward at (.*?) with your (.*?) and attempt a shield bash\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Charge' number='9403' type='attack'>
+      <cost type='stamina'>14</cost>
+      <cast-proc>dothistimeout &apos;shield charge&apos;, 3, /^You charge forward at (.*?) with your (.*?) and attempt a shield charge\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Pin' number='9404' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;shield pin&apos;, 3, /^You attempt to expose a vulnerability with a diversionary shield bash on (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Push' number='9405' type='attack'>
+      <cost type='stamina'>7</cost>
+      <cast-proc>dothistimeout &apos;shield push&apos;, 3, /^You raise your (.*?) before you and attempt to push (.*?) away\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Strike' number='9406' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;shield push&apos;, 3, /^You launch a quick bash with your (.*?) at a (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Throw' number='9407' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;shield throw&apos;, 3, /^You snap your arm forward, hurling your (.*?) at (.*?) with all your might\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Shield Trample' number='9408' type='attack'>
+      <cost type='stamina'>14</cost>
+      <cast-proc>dothistimeout &apos;shield trample&apos;, 3, /^You raise your (.*?) before you and charge headlong towards (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Barrage' number='9420' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon barrage&apos;, 3, /Drawing several arrows from your quivers\, you grip them loosely between your fingers in preparation for a rapid barrage\./</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Pin Down' number='9421' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon pin down&apos;, 3, /^You take quick assessment and raise your (.*)\, several arrows nocked to your string in parallel\./</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Reactive Shot' number='9422' type='attack'>
+      <cast-proc>dothistimeout &apos;weapon reactive shot&apos;, 3, /^You fire off a quick shot at (.*?)\, then make a hasty retreat\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Volley' number='9423' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon volley&apos;, 3, /^Raising your (.*?) high\, you loose arrow after arrow as fast as you can\, filling the sky with a volley of deadly projectiles\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Charge' number='9430' type='attack'>
+      <cost type='stamina'>14</cost>
+      <cast-proc>dothistimeout &apos;weapon charge&apos;, 3, /You rush forward at (.*?) with your (.*?) and attempt a charge\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Cyclone' number='9431' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon cyclone&apos;, 3, /^You weave your (.*?) in an under arm spin, swiftly picking up speed until it becomes a blurred cyclone of (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Guardant Thrusts' number='9432' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon gthrusts&apos;, 3, /Retaining a defensive profile\, you raise your (.*?) in a hanging guard and prepare to unleash a barrage of guardant thrusts upon (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Radial Sweep' number='9433' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon radialsweep&apos;, 3, /^Crouching low, you sweep your (.*?) in a broad arc\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Clash' number='9440' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon clash&apos;, 3, /Steeling yourself for a brawl\, you plunge into the fray\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Fury' number='9441' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon fury&apos;, 3, /With a percussive snap\, you shake out your arms in quick succession and bear down on (.*?) in a fury\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Spin Kick' number='9442' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon spinkick&apos;, 3, /Stepping with deliberation\, you wheel into a leaping spin\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Twin Hammerfists' number='9443' type='attack'>
+      <cost type='stamina'>7</cost>
+      <cast-proc>dothistimeout &apos;weapon twinhammer&apos;, 3, /You raise your hands high\, lace them together and bring them crashing down towards (.*?)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Clobber' number='9450' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon clobber&apos;, 3, /You redirect the momentum of your parry\, hauling your (.*) around to clobber (.*)\!/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Dizzying Swing' number='9451' type='attack'>
+      <cost type='stamina'>7</cost>
+      <cast-proc>dothistimeout &apos;weapon twinhammer&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Pulverize' number='9452' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon pulverize&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Pummel' number='9453' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon pummel&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Cripple' number='9460' type='attack'>
+      <cost type='stamina'>7</cost>
+      <cast-proc>dothistimeout &apos;weapon cripple&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Flurry' number='9461' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon flurry&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Riposte' number='9462' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon riposte&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Whirling Blade' number='9463' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon wblade&apos;, 3, /Undefined/</cast-proc>
+   </spell> 
+   <spell availability='self-cast' name='Overpower' number='9470' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon overpower&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Reverse Strike' number='9471' type='attack'>
+      <cost type='stamina'>0</cost>
+      <cast-proc>dothistimeout &apos;weapon reversestrike&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Thrash' number='9472' type='attack'>
+      <cost type='stamina'>15</cost>
+      <cast-proc>dothistimeout &apos;weapon thrash&apos;, 3, /Undefined/</cast-proc>
+   </spell>
+   <spell availability='self-cast' name='Whirlwind' number='9473' type='attack'>
+      <cost type='stamina'>20</cost>
+      <cast-proc>dothistimeout &apos;weapon whirlwind&apos;, 3, /Undefined/</cast-proc>
+   </spell>
    <spell availability='all' name='Slash Protection' number='9501' type='defense'>
       <duration>240</duration>
    </spell>
